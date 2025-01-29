@@ -10,7 +10,7 @@
 // }
 limit = 10
 var name = prompt("Name :");
-if (name != null or name < limit) {
+if (name != null or name.length < limit) {
     $("h1").text("Welcome " + name + " to Notes-PDF");
 } else {
     $("h1").text("Welcome to Notes-PDF");
