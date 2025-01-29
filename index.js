@@ -8,8 +8,8 @@
 //       alert("Hello, " + name + "!");
 //   }
 // }
-limit = 10;
 var name = prompt("Name :");
+limit = 10;
 if (name != null or name.length < limit) {
     $("h1").text("Welcome " + name + " to Notes-PDF");
 } else {
