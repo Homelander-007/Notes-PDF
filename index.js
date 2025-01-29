@@ -8,7 +8,7 @@
 //       alert("Hello, " + name + "!");
 //   }
 // }
-let limit = 10
+limit = 10
 var name = prompt("Name :");
 if (name != null or name < limit) {
     $("h1").text("Welcome " + name + " to Notes-PDF");
