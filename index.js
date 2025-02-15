@@ -8,6 +8,8 @@
 //       alert("Hello, " + name + "!");
 //   }
 // }
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9780920787666149"
+     crossorigin="anonymous"></script>
 var name = prompt("Name :");
 if (name != null) {
     $("h1").text("Welcome " + name + " to Notes-PDF");
