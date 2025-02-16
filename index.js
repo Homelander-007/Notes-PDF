@@ -12,7 +12,7 @@
      crossorigin="anonymous"></script>
 var name = prompt("Name :");
 if (name != null) {
-    $("h1").text("Welcome " + name + " to Notes-PDF");
+    $("h1").text("Welcome " + name + " to Notes Yard");
 } else {
     $("h1").text("Welcome to Notes-PDF");
 }
