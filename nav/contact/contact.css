@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header {
+    background-color: #ffffffbc;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    border-radius: 50%;
+    text-align: left;
+    object-fit: cover;
+    height: 52px;
+    width: 52px;
+}
+
+.logo p{
+    font-size: 22px;
+    font-family:cursive;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #0015ff;
+}
+
+#contact{
+    background-image:    url('contact.jpg');
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#me{
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.gola{
+    height: 333px;
+    width: 333px;
+    border-radius: 50%;
+    background-color: #000000ac;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 60%;
+    margin-top: -90px;
+    gap: 33px;
+}
+
+.con img{
+    width: 100%;
+    display: block;
+}
+
+#me h1{
+    font-size: 44px;
+    margin-top: 90px;
+}
+
+#me p{
+    font-size: 22px;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 0%;
+}
+
+footer p{
+    text-align: center;
+}

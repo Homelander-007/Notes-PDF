@@ -1,6 +1,0 @@
-[submodule "nav/about"]
-	path = nav/about
-	url = https://github.com/Homelander-007/NotesYard-about.git
-[submodule "nav/contact"]
-	path = nav/contact
-	url = https://github.com/Homelander-007/NotesYard-contact.git

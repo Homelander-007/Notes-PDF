@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes-PDF</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon"  href="logo.png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9780920787666149"
+     crossorigin="anonymous"></script>
+</head>
+<body id="contact">
+    <header>
+        <nav>
+            <div class="logo">
+                <div>
+                <img src="200.gif" alt="">
+                </div>
+                <div>
+                    <p>Notes-PDF</p>
+                </div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="https://notesyard.netlify.app/">Home</a></li>
+                <li><a href="https://notesyard.netlify.app/nav/about/">About</a></li>
+                <li><a href="https://notesyard.netlify.app/nav/contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="me">
+        <div class="gola">
+            <h1>Contact us :-</h1>
+            <div class="con">
+            <a id="dynamicLink" href="https://mail.google.com/mail/?view=cm&fs=1&to=karamveersinghisking@gmail.com?subject=Kia%20kaam%20hai?%20&body=Sir%20mai%20aapko%20notes%20dena%20chahta%20hu"><img src="mail.png" alt=""></a>
+            <a href="https://t.me/Birbal_007"><img src="tele.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Site for notes</p>
+    </footer>
+    <script>
+        function updateLink() {
+            let link = document.getElementById("dynamicLink");
+
+            if (window.matchMedia("(max-width: 550px)").matches) {
+                link.href = "mailto:karamveersinghisking@gmail.com?subject=Kia%20kaam%20hai?%20&body=Sir%20mai%20aapko%20notes%20dena%20chahta%20hu"; // Mobile version ka link
+            } else {
+                link.href = "https://mail.google.com/mail/?view=cm&fs=1&to=karamveersinghisking@gmail.com?subject=Kia%20kaam%20hai?%20&body=Sir%20mai%20aapko%20notes%20dena%20chahta%20hu"; // Desktop version ka link
+            }
+        }
+        updateLink();
+        window.addEventListener("resize", updateLink);
+    </script>
+</body>
+</html>
